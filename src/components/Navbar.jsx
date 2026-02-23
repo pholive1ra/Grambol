@@ -25,7 +25,6 @@ export default function Navbar() {
         {navLinks.map((link) => (
           <Link
             key={link}
-            to="/"
             onClick={() => setActiveLink(link)}
             className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
               activeLink === link
@@ -39,13 +38,19 @@ export default function Navbar() {
       </div>
 
       {/* Botões - escondido no mobile */}
-      <div className="hidden md:flex gap-4">
-        <button className="text-sm font-medium cursor-pointer text-gray-700 hover:text-violet-600 transition-colors">
+      <div className="hidden md:flex items-center gap-4">
+        <Link
+          to="/login"
+          className="text-sm font-semibold cursor-pointer text-gray-700 hover:text-violet-600 transition-colors"
+        >
           Entrar
-        </button>
-        <button className="bg-gradient-to-r cursor-pointer from-violet-600 to-pink-500 text-white text-sm font-semibold px-5 py-2 rounded-xl hover:opacity-90 transition-all">
+        </Link>
+        <Link
+          to="/cadastro"
+          className="bg-gradient-to-r cursor-pointer from-violet-600 to-pink-500 text-white text-sm font-semibold px-5 py-2 rounded-xl hover:opacity-90 transition-all"
+        >
           Cadastre-se
-        </button>
+        </Link>
       </div>
 
       {/* Hamburguer - só aparece no mobile */}
@@ -92,12 +97,18 @@ export default function Navbar() {
               </Link>
             ))}
             <div className="flex flex-col gap-2 w-full px-8">
-              <button className="text-sm font-medium cursor-pointer text-gray-700 hover:text-violet-600 transition-colors">
+              <Link
+                to="/login"
+                className="text-sm font-medium text-gray-700 hover:text-violet-600 transition-colors"
+              >
                 Entrar
-              </button>
-              <button className="bg-gradient-to-r cursor-pointer from-violet-600 to-pink-500 text-white text-sm font-semibold px-5 py-2 rounded-xl hover:opacity-90 transition-all">
+              </Link>
+              <Link
+                to="/cadastro"
+                className="bg-gradient-to-r cursor-pointer from-violet-600 to-pink-500 text-white text-sm font-semibold px-5 py-2 rounded-xl hover:opacity-90 transition-all"
+              >
                 Cadastre-se
-              </button>
+              </Link>
             </div>
           </div>
         )}
