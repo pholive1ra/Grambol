@@ -1,10 +1,16 @@
 import Home from "./pages/Home";
-import { BrowserRouter } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Login from "./pages/Login";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 export default function App() {
   return (
     <BrowserRouter>
-      <Home />
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+      </Routes>
     </BrowserRouter>
   );
 }
