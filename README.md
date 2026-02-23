@@ -1,21 +1,23 @@
-<<<<<<< HEAD
-# React + Vite
+🚌 RodoBus
+Plataforma de passagens rodoviárias com busca de rotas, ofertas e programa de fidelidade.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🖥️ Tecnologias
+React
+Tailwind CSS
+Material UI (MUI)
+Vite
 
-Currently, two official plugins are available:
+🚀 Como rodar o projeto
+# Clone o repositório
+git clone https://github.com/pholive1ra/RodoBus.git
+# Entre na pasta
+cd RodoBus
+# Instale as dependências
+npm install
+# Rodando em desenvolvimento
+bashnpm run dev
+# Acesse http://localhost:5173 no navegador.
+# Build para produção
+npm run build
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# RodoBus
-Plataforma de viagens rodoviárias
->>>>>>> 0988cb18b4fbc497b151b1bf782f0e7d59514fd2
