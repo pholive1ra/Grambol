@@ -63,7 +63,7 @@ export default function Navbar() {
       </div>
 
       {/* Hamburguer - só aparece no mobile */}
-      <div className="lg:hidden">
+      <div className="lg:hidden z-20">
         <button
           className="px-2 py-1 text-gray-600 hover:text-gray-800 focus:outline-none"
           onClick={() => setMenuAberto(!menuAberto)}
@@ -105,10 +105,10 @@ export default function Navbar() {
                 {label}
               </Link>
             ))}
-            <div className="flex flex-col gap-2 w-full px-8">
+            <div className="flex flex-col gap-2 h-screen px-8">
               <Link
                 to="/login"
-                className="text-sm font-medium text-gray-700 hover:text-violet-600 transition-colors"
+                className="text-sm text-center font-medium text-gray-700 hover:text-violet-600 transition-colors"
               >
                 Entrar
               </Link>
