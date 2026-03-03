@@ -66,28 +66,5 @@ Grambol/
 └── package.json
 ```
 
----
 
-## ✨ Features
 
-* [x] Hero section with ticket search
-* [ ] Destination listing
-* [ ] Deals page
-* [ ] Cart and checkout
-* [ ] User authentication
-* [ ] Loyalty program
-
----
-
-## 🤝 Contributing
-
-1. Create a branch: `git checkout -b feat/your-feature`
-2. Commit your changes: `git commit -m "feat: feature description"`
-3. Push the branch: `git push origin feat/your-feature`
-4. Open a Pull Request
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
