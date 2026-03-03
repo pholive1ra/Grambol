@@ -7,8 +7,8 @@ export default function Logo() {
         <DirectionsBusIcon sx={{ color: "#fff", fontSize: 20 }} />
       </div>
       <span className="text-xl font-bold">
-        <span className="text-violet-600">Rodo</span>
-        <span className="text-gray-800">Bus</span>
+        <span className="text-violet-600">Gram</span>
+        <span className="text-gray-800">bol</span>
       </span>
     </div>
   );
