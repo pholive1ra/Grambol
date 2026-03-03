@@ -13,7 +13,7 @@ export default function LoginForm() {
       <div className="bg-white rounded-lg w-96 flex items-center justify-center flex-col gap-8 mb-6 shadow-lg p-8">
         <Logo />
         <div>
-          <h2 className="text-2xl font-bold text-center">Login</h2>
+          <h2 className="text-2xl font-bold text-center py-2">Login</h2>
           <h3 className="text-sm text-gray-600">
             Preencha os campos abaixo para acessar sua conta
           </h3>
