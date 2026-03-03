@@ -3,22 +3,19 @@ import Logo from "../../components/Logo";
 import { Button } from "@mui/material";
 
 const fields = [
-  { label: "Nome completo", type: "text" },
-  { label: "CPF", type: "text" },
   { label: "E-mail", type: "email" },
   { label: "Senha", type: "password" },
-  { label: "Confirmar senha", type: "password" },
 ];
 
-export default function RegisterForm() {
+export default function LoginForm() {
   return (
     <>
-      <div className="bg-white rounded-lg w-96 flex items-center justify-center flex-col gap-4 mb-6 shadow-lg p-8">
+      <div className="bg-white rounded-lg w-96 flex items-center justify-center flex-col gap-8 mb-6 shadow-lg p-8">
         <Logo />
         <div>
-          <h2 className="text-2xl text-center font-bold">Cadastro</h2>
+          <h2 className="text-2xl font-bold text-center">Login</h2>
           <h3 className="text-sm text-gray-600">
-            Preencha os campos abaixo para criar sua conta
+            Preencha os campos abaixo para acessar sua conta
           </h3>
         </div>
         <form className="flex flex-col gap-4">
@@ -40,7 +37,7 @@ export default function RegisterForm() {
               "&:hover": { backgroundColor: "#6D28D9" },
             }}
           >
-            Criar conta
+            Entrar
           </Button>
         </form>
       </div>
