@@ -7,8 +7,6 @@ export default function Home() {
       image={ImageHero}
       title="Seu próximo destino começa aqui!"
       subtitle="Explore os melhores destinos, ofertas exclusivas e reserve sua próxima viagem com facilidade."
-      ctaText="Explorar destinos"
-      ctaLink="/destinos"
     />
   );
 }
