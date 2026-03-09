@@ -25,14 +25,14 @@ export default function Card() {
   ];
 
   return (
-    <div className="grid grid-cols-1 mt-12 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 px-6 max-w-7xl mx-auto">
+    <div className="grid grid-cols-1 mt-12 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 px-6 mx-auto">
       {CardItems.map((item, index) => {
         const Icon = item.icon;
 
         return (
           <div
             key={index}
-            className="p-6 border sm:mt-10 border-gray-200 flex items-start gap-4 rounded-xl bg-white shadow-sm hover:shadow-md transition"
+            className="w-80 p-6 border sm:mt-10 border-gray-200 flex items-start gap-4 rounded-xl bg-white shadow-sm hover:shadow-md transition"
           >
             {/* Ícone */}
             <div className="flex items-center justify-center w-20 h-10 rounded-full bg-gradient-to-r from-violet-600 to-pink-500 text-white">
