@@ -1,4 +1,4 @@
-import ImageHero from "../assets/image/image-home.jpg";
+import ImageHero from "../../assets/image/image-home.jpg";
 import SearchBar from "./SearchBar";
 // import { Link } from "react-router-dom";
 

@@ -5,12 +5,10 @@ const fields = [
   {
     title: "Origem",
     label: "De onde você quer sair?",
-    placeholder: "Digite o local de partida",
   },
   {
     title: "Destino",
     label: "Para onde você quer ir?",
-    placeholder: "Digite o local de destino",
   },
   { title: "Data de ida", type: "date" },
 ];
@@ -23,7 +21,6 @@ export default function SearchBar() {
           <p className="p-2 text-gray-500 text-sm">{fields.title}</p>
           <TextField
             label={fields.label}
-            placeholder={fields.placeholder}
             InputLabelProps={
               fields.type === "date" ? { shrink: true, type: "date" } : {}
             }
