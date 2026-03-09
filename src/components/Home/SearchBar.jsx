@@ -2,31 +2,24 @@ import { TextField } from "@mui/material";
 import { Link } from "react-router-dom";
 
 const fields = [
-  {
-    title: "Origem",
-    label: "De onde você quer sair?",
-  },
-  {
-    title: "Destino",
-    label: "Para onde você quer ir?",
-  },
+  { title: "Origem", label: "De onde você quer sair?" },
+  { title: "Destino", label: "Para onde você quer ir?" },
   { title: "Data de ida", type: "date" },
 ];
 
 export default function SearchBar() {
   return (
-    <div className="mt-8 flex flex-col md:flex-row gap-4 max-w-sm md:max-w-4xl bg-white p-4 rounded-xl shadow-lg w-full mx-auto">
-      {fields.map((fields, index) => (
+    <div className="flex flex-col md:flex-row gap-4 max-w-lg md:max-w-4xl bg-white p-4 rounded-xl shadow-lg w-full mx-auto">
+      {fields.map((field, index) => (
         <div key={index} className="flex flex-col flex-1">
-          <p className="p-2 text-gray-500 text-sm">{fields.title}</p>
+          <p className="p-2 text-gray-500 text-sm">{field.title}</p>
+
           <TextField
-            label={fields.label}
-            InputLabelProps={
-              fields.type === "date" ? { shrink: true, type: "date" } : {}
-            }
+            label={field.label}
+            type={field.type || "text"}
+            InputLabelProps={field.type === "date" ? { shrink: true } : {}}
             fullWidth
             size="small"
-            type={fields.type || "text"}
           />
         </div>
       ))}
