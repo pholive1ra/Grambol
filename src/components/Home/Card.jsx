@@ -32,7 +32,7 @@ export default function Card() {
         return (
           <div
             key={index}
-            className="w-80 p-6 border sm:mt-10 border-gray-200 flex items-start gap-4 rounded-xl bg-white shadow-sm hover:shadow-md transition"
+            className="w-80 p-6 border sm:mt-10 border-gray-200 flex items-start gap-4 rounded-xl bg-white shadow-sm hover:shadow-md hover:scale-101 transition"
           >
             {/* Ícone */}
             <div className="flex items-center justify-center w-20 h-10 rounded-full bg-gradient-to-r from-violet-600 to-pink-500 text-white">

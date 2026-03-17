@@ -15,7 +15,7 @@ export default function DestinationsIntro() {
       </span>
 
       {/* Heading */}
-      <h2 className="text-4xl font-bold text-[#1a1a2e] leading-tight">
+      <h2 className="text-3xl font-bold text-[#1a1a2e] leading-tight">
         {texts[1].item}
       </h2>
 
