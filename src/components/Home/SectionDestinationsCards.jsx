@@ -1,7 +1,8 @@
 import { supabase } from "../../lib/supabase";
 import { useEffect, useState } from "react";
+import DestinationCard from "./DestinationCard";
 
-export default function DestinationsCards() {
+export default function SectionDestinationsCards() {
   const [rotas, setRotas] = useState([]);
   useEffect(() => {
     async function fetchRotas() {
@@ -17,14 +18,12 @@ export default function DestinationsCards() {
   }, []);
   return (
     <>
-      <div>
-        {rotas.map((rota) => (
-          <div key={rota.id}>
-            <h3>
-              {rota.origem} → {rota.destino}
-            </h3>
-          </div>
-        ))}
+      <div className="max-w-6xl mx-auto px-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {rotas.map((rota) => (
+            <DestinationCard key={rota.id} rota={rota} />
+          ))}
+        </div>
       </div>
     </>
   );
