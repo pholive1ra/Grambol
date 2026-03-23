@@ -2,7 +2,7 @@ import Hero from "../components/Home/Hero";
 import ImageHero from "../assets/image/image-home.jpg";
 import Card from "../components/Home/Card";
 import DestinationsIntro from "../components/Home/DestinationsIntro";
-import DestinationsCards from "../components/Home/DestinationsCards";
+import SectionDestinationsCards from "../components/Home/SectionDestinationsCards";
 
 export default function Home() {
   return (
@@ -15,7 +15,7 @@ export default function Home() {
         />
         <Card />
         <DestinationsIntro />
-        <DestinationsCards />
+        <SectionDestinationsCards />
       </div>
     </>
   );
