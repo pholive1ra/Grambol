@@ -9,7 +9,7 @@ const fields = [
 
 export default function SearchBar() {
   return (
-    <div className="flex flex-col md:flex-row gap-4 max-w-lg md:max-w-4xl bg-white p-4 rounded-xl shadow-lg w-full mx-auto">
+    <div className="flex flex-col md:flex-row gap-4 max-w-lg  md:max-w-4xl bg-white p-4 rounded-xl shadow-lg w-full mx-auto">
       {fields.map((field, index) => (
         <div key={index} className="flex flex-col flex-1">
           <p className="p-2 text-gray-500 text-sm">{field.title}</p>
