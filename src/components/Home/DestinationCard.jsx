@@ -35,7 +35,7 @@ export default function DestinationCard({ rota }) {
             </p>
           </div>
 
-          <button className="bg-purple-100 cursor-pointer text-purple-600 px-3 py-1 rounded-full text-sm hover:bg-purple-200 transition">
+          <button className="bg-purple-100 cursor-pointer text-purple-600 px-3 py-1 rounded-full text-sm hover:bg-purple-200 hover:opacity-90 transition">
             Ver passagens →
           </button>
         </div>
