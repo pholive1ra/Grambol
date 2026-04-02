@@ -5,6 +5,7 @@ import DestinationsIntro from "../components/Home/DestinationsIntro";
 import SectionDestinationsCards from "../components/Home/SectionDestinationsCards";
 import HowItWorks from "../components/Home/HowItWorks";
 import TestimonialsSection from "../components/Home/TestimonialsSection";
+import FAQ from "../components/Home/FAQ";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <SectionDestinationsCards />
         <HowItWorks />
         <TestimonialsSection />
+        <FAQ />
       </div>
     </>
   );
