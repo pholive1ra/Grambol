@@ -1,15 +1,31 @@
 # Grambol
 
-A bus ticketing platform with route search, deals, and a loyalty program.
+A modern bus ticketing platform focused on route search, exclusive deals, digital boarding, and customer loyalty.
 
 ---
 
 ## 🖥️ Tech Stack
 
-* [React](https://react.dev/)
-* [Tailwind CSS](https://tailwindcss.com/)
-* [Material UI (MUI)](https://mui.com/)
-* [Vite](https://vitejs.dev/)
+- React
+- TypeScript
+- Tailwind CSS
+- Material UI (MUI)
+- Vite
+- React Router
+- Supabase
+
+---
+
+## ✨ Highlights
+
+- 🔍 Route search with destination cards
+- 🎟️ Digital boarding with QR Code concept
+- 💳 Login and register authentication flow
+- ⭐ Testimonials and FAQ sections
+- 📱 Fully responsive layout
+- 🧩 Reusable component architecture
+- 🔐 Type-safe React + TypeScript migration
+- ☁️ Supabase integration for routes data
 
 ---
 
@@ -17,8 +33,8 @@ A bus ticketing platform with route search, deals, and a loyalty program.
 
 ### Prerequisites
 
-* Node.js >= 18
-* npm or yarn
+- Node.js >= 18
+- npm or yarn
 
 ### Installation
 
@@ -31,40 +47,3 @@ cd Grambol
 
 # Install dependencies
 npm install
-```
-
-### Development mode
-
-```bash
-npm run dev
-```
-
-Access http://localhost:5173 in your browser.
-
-### Production build
-
-```bash
-npm run build
-```
-
----
-
-## 📁 Project Structure
-
-```
-Grambol/
-├── public/
-├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── pages/
-│   ├── App.jsx
-│   └── main.jsx
-├── index.html
-├── tailwind.config.js
-├── vite.config.js
-└── package.json
-```
-
-
-
