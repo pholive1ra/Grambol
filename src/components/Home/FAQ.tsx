@@ -61,7 +61,6 @@ export default function FAQ() {
                   size={20}
                 />
               </button>
-
               <div
                 className={`grid transition-all duration-300 ${
                   openIndex === index
