@@ -1,17 +1,5 @@
-type WeeklyPromoCardProps = {
-  day: string;
-  route: string;
-  seats: number;
-  price: number;
-  oldPrice: number;
-};
+import {weeklyPromos} from "./data/weeklyPromos";
 
-export default function WeeklyPromoCard({
-  day,
-  route,
-  seats,
-  price,
-  oldPrice,
-}: WeeklyPromoCardProps) {
+export default function WeeklyPromoCard() {
   return;
 }

@@ -1,35 +1,12 @@
 import SectionHeader from "../ui/SectionHeader";
 import { Zap } from "lucide-react";
 import FlashOfferCard from "./FlashOfferCard";
+import WeeklyPromoCard from "./WeeklyPromoCard";
+
+import { flashOffers } from "./data/flashOffers";
+import { weeklyPromos } from "./data/weeklyPromos";
 
 export default function OffersHero() {
-  const flashOffers = [
-    {
-      category: "Executivo",
-      route: "Rio → São Paulo",
-      price: 59.9,
-      oldPrice: 129.9,
-      discount: "-54%",
-      expiresIn: "Expira em 2h 34min",
-    },
-    {
-      category: "Leito",
-      route: "Rio → Florianópolis",
-      price: 149.9,
-      oldPrice: 249.0,
-      discount: "-40%",
-      expiresIn: "Expira em 5h 12 min",
-    },
-    {
-      category: "Semi-leito",
-      route: "Rio → Búzios",
-      price: 49.9,
-      oldPrice: 99.9,
-      discount: "-50%",
-      expiresIn: "Expira em 1h 08 min",
-    },
-  ];
-
   return (
     <>
       <section className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">

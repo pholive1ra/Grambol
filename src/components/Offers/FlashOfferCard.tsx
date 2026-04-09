@@ -1,4 +1,5 @@
 import { Clock } from "lucide-react";
+import { flashOffers } from "./data/flashOffers";
 
 type FlashOfferCardProps = {
   category: string;
